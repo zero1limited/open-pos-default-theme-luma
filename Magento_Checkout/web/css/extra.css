@@ -1,0 +1,15 @@
+.checkout-index-index .opc-wrapper {padding: 0 10px;margin: 0;width: 100% !important;max-width: 100%;}
+.checkout-index-index .checkout-payment-method .step-title {display: none;}
+.checkout-index-index #maincontent, .checkout-index-index .header.content {max-width: 976px !important;}
+.checkout-index-index .logo {float: none;}
+.checkout-index-index .logo img {margin: 0 auto;width: 100%;max-width: 189px;}
+.checkout-index-index .checkout-payment-method .actions-toolbar .primary {float: none; width: 100%; margin-top: 1rem !important;}
+.checkout-index-index .checkout-payment-method .payment-method-content {padding: 0;}
+.checkout-index-index .checkout-payment-method .actions-toolbar .primary {float: left; width: 100%;}
+.checkout-index-index .checkout-payment-method .actions-toolbar .primary button.primary {width: 100%; background: #3070f6; font-size: 2.4rem;padding: 2.2rem !important;}
+/* Payment Title Radio Inputs */
+.checkout-index-index .payment-method-title {padding: 1.8rem !important; border: 2px solid rgb(229, 231, 235);margin: 2rem 0 !important;padding: 10px;border-radius: 4px;cursor: pointer;position: relative;font-weight: bold;text-align: center;font-size: 18px;color: rgb(55, 65, 81);}
+/* Hide the radio circle */
+.checkout-index-index .payment-method-title input[type="radio"] {position: absolute;opacity: 0;pointer-events: none;}
+/* Change border color when selected */
+.checkout-index-index .payment-method-title:has(input[type="radio"]:checked) {border-color: rgb(55, 65, 81);}
